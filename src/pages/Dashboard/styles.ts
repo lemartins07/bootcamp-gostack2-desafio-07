@@ -63,6 +63,17 @@ export const TableContainer = styled.section`
       line-height: 24px;
     }
 
+    tbody tr {
+      transition: all 180ms ease-in-out;
+
+      &:hover {
+        color: #7159c1;
+        border-color: #ddd;
+        transform: scale(1.005);
+        box-shadow: 0 12px 10px -10px hsla(254, 26%, 25%, 0.27);
+      }
+    }
+
     td {
       padding: 20px 32px;
       border: 0;
